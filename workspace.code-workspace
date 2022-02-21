@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\lana-TILT"
+		}
+	],
+	"settings": {
+		"editor.mouseWheelZoom": true,
+		"window.zoomLevel": 1
+	}
+}

@@ -1,0 +1,263 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+MARQUEE {
+    color: #f0ebec;
+    font-weight: bold;
+    font-size: 20px;
+    font-display: auto;
+    font-style: italic;
+    z-index: 1;
+    border-bottom: 3px solid black;
+    background-color: rgb(47, 0, 255);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: antiquewhite;
+}
+
+.menu {
+    float: right;
+}
+
+img {
+    margin-left: 2px;
+    margin-top: 8px;
+    width: 560px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    top: 0;
+    background: #27d8d8;
+    z-index: 1;
+    border-bottom: 4px solid #111014;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-left: 50px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: rgb(223, 19, 19);
+    width: 100%;
+    line-height: 50px;
+    margin-left: 70px;
+}
+
+a.tbl-biru {
+    background: #5719e7;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: rgb(247, 21, 21);
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #16c1d8;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 55px;
+    padding: 15px 20px 15px 20px;
+    color: antiquewhite;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: rgb(247, 21, 21);
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.paket-data-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-axis {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.kartu-axis img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-axis p {
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.Pulsa {
+    color: blanchedalmond;
+}
+
+.kolom {
+    color: rgb(54, 212, 33);
+    text-align: center;
+}
+
+#Contact {
+    background: rgb(7, 3, 56);
+    padding: 15px 0px 15px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 0 auto;
+    color: rgb(21, 224, 55);
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 30px;
+}
+
+@media screen {
+    .wrapper {
+        width: 50%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .paket-data-list {
+        width: 50%;
+    }
+    .kartu-axis {
+        width: 50%;
+    }
+}
